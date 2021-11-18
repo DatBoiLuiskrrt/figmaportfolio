@@ -133,11 +133,26 @@ ol li {
   padding-top: 2rem;
   font-weight: 600;
 }
-.project-container {
+.project-container,
+.project-container2 {
   display: flex;
   margin-top: 2rem;
   padding: 0 5rem;
 }
 .card {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  margin: auto;
+  padding-right: 2rem;
+}
+.card2 {
+  padding-left: 2rem;
+  margin: auto;
+}
+.card h3,
+.card2 h3 {
+  margin-bottom: 1rem;
+}
+.card p,
+.card2 p {
+  margin-bottom: 1rem;
 }
