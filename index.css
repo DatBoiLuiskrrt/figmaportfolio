@@ -124,15 +124,21 @@ ol li {
 }
 .projects {
   background-color: #f8f9fa;
+  color: #6c757d;
 }
 .projects h2 {
   font-size: 2rem;
   width: 20%;
-  /* border: 1px solid red; */
   margin: 0 auto;
   padding-top: 2rem;
   font-weight: 600;
 }
+.projects h3,
+.card2 h3 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
 .project-container,
 .project-container2 {
   display: flex;
@@ -154,5 +160,13 @@ ol li {
 }
 .card p,
 .card2 p {
+  margin-bottom: 1rem;
+}
+div button {
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
