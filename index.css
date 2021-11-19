@@ -149,6 +149,7 @@ ol li {
   display: flex;
   padding: 0 5rem;
   border: 1px solid red;
+  /* width: 100vw; */
 }
 .card {
   border: 1px solid red;
@@ -190,6 +191,12 @@ div button {
   /* border: 1px solid blue; */
   width: 50%;
   line-height: 1.4;
+}
+.project-container2 img {
+  width: 50%;
+}
+.card2 {
+  width: 50%;
 }
 .aboutMeDiv {
   /* border: 1px solid red; */
