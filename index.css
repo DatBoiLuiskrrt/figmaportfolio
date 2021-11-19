@@ -218,3 +218,23 @@ div button {
   width: 50%;
   background-color: #343a40;
 }
+.tech {
+  height: 60vh;
+  background-color: #f8f9fa;
+}
+.tech h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  width: 19%;
+  /* border: 1px solid red; */
+  padding-top: 15rem;
+  margin: 0 auto;
+}
+.techPic {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.techPic img {
+  margin: 5rem auto;
+}
