@@ -73,7 +73,7 @@ legend {
   border: 0;
 }
 body {
-  background: white;
+  background: #f8f9fa;
   line-height: 1;
   color: black;
   font-family: "Poppins", sans-serif;
@@ -125,13 +125,18 @@ ol li {
 .projects {
   background-color: #f8f9fa;
   color: #6c757d;
+  padding-top: 12rem;
 }
 .projects h2 {
   font-size: 2rem;
   width: 20%;
   margin: 0 auto;
-  padding-top: 2rem;
+  padding-bottom: 6rem;
   font-weight: 600;
+}
+.projects img {
+  margin-bottom: 6rem;
+  width: 50%;
 }
 .projects h3,
 .card2 h3 {
@@ -142,13 +147,14 @@ ol li {
 .project-container,
 .project-container2 {
   display: flex;
-  margin-top: 2rem;
   padding: 0 5rem;
+  border: 1px solid red;
 }
 .card {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   margin: auto;
   padding-right: 2rem;
+  width: 40%;
 }
 .card2 {
   padding-left: 2rem;
@@ -163,10 +169,41 @@ ol li {
   margin-bottom: 1rem;
 }
 div button {
-  /* border: 1px solid red; */
   border-radius: 10px;
   width: 100%;
   padding: 0.8rem 1rem;
   font-size: 2rem;
   margin-bottom: 1rem;
+}
+.about {
+  display: flex;
+  /* background-color: #6c757d; */
+  background-color: #212529;
+  margin-top: 12rem;
+}
+.aboutMe {
+  /* width: 50%; */
+  color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  /* margin: auto; */
+  /* border: 1px solid blue; */
+  width: 50%;
+  line-height: 1.4;
+}
+.aboutMeDiv {
+  /* border: 1px solid red; */
+  width: 40%;
+  margin: auto;
+}
+.aboutMe h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.aboutMe p {
+  font-size: 1.4rem;
+}
+.aboutMePic {
+  width: 50%;
+  background-color: #343a40;
 }
