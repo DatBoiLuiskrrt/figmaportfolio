@@ -238,3 +238,8 @@ div button {
 .techPic img {
   margin: 5rem auto;
 }
+.classContainer div button,
+.card div button {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
