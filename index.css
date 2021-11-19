@@ -221,6 +221,7 @@ div button {
 .tech {
   height: 60vh;
   background-color: #f8f9fa;
+  margin-bottom: 12rem;
 }
 .tech h2 {
   font-size: 3rem;
@@ -233,7 +234,6 @@ div button {
 .techPic {
   display: flex;
   align-items: center;
-  /* border: 1px solid red; */
 }
 .techPic img {
   margin: 5rem auto;
@@ -242,4 +242,43 @@ div button {
 .card div button {
   background-color: #343a40;
   color: #f8f9fa;
+}
+.form-section {
+  background-color: #e9ecef;
+  height: 100%;
+}
+.form-child h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  width: 45%;
+  /* margin: auto; */
+  margin: auto;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+.form-container {
+  height: 100%;
+  width: 45%;
+  margin: 0 auto;
+}
+.form-child {
+  height: 80%;
+}
+form p {
+  width: 100%;
+  padding: 1em 0;
+  /* height: 2rem; */
+}
+form {
+  width: 80%;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+}
+form input {
+  width: 100%;
+  padding: 1em 2em;
+  border-radius: 10px;
+}
+form button {
+  margin-top: 2em;
 }

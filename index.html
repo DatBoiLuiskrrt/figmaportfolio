@@ -109,22 +109,40 @@
         <img src="./images/TechStack.svg" alt="" />
       </div>
     </section>
-    <section>
-      <h2>Contact Me 📨</h2>
-      <form
-        action="https://formsubmit.co/9f48f0a9ce0023416cf74ffd48cf5e65"
-        method="POST"
-      >
-        <input type="text" name="name" placeholder="You name..." required />
-        <input type="email" name="email" placeholder="Your email..." required />
-        <input type="text" name="message" placeholder="Type here..." required />
-        <input
-          type="hidden"
-          name="_next"
-          value="http://luishernandezdev.com//thanks.html"
-        />
-        <button type="submit">Send</button>
-      </form>
+
+    <section class="form-section">
+      <div class="form-container">
+        <div class="form-child">
+          <h2>Contact Me 📨</h2>
+          <form
+            action="https://formsubmit.co/9f48f0a9ce0023416cf74ffd48cf5e65"
+            method="POST"
+          >
+            <p>Your name...</p>
+            <input type="text" name="name" placeholder="You name..." required />
+            <p>Your email...</p>
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email..."
+              required
+            />
+            <p>Type here...</p>
+            <input
+              type="text"
+              name="message"
+              placeholder="Type here..."
+              required
+            />
+            <input
+              type="hidden"
+              name="_next"
+              value="http://luishernandezdev.com//thanks.html"
+            />
+            <button class="sub" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
     </section>
   </body>
 </html>
