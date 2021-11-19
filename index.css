@@ -267,6 +267,8 @@ div button {
 form p {
   width: 100%;
   padding: 1em 0;
+  font-size: 1.2rem;
+  color: #343a40;
   /* height: 2rem; */
 }
 form {
@@ -281,4 +283,8 @@ form input {
 }
 form button {
   margin-top: 2em;
+}
+form button {
+  background-color: #212529;
+  color: #e9ecef;
 }
