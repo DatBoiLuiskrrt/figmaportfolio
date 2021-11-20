@@ -258,21 +258,27 @@ div button {
 .form-child h2 {
   font-size: 3rem;
   font-weight: bold;
-  width: 100%;
-  /* border: 1px solid red; */
+  border: 1px solid red;
+  display: inline-block;
   /* margin: auto; */
-  margin: auto;
+  width: 100%;
+  text-align: center;
+
+  /* margin: 0 auto; */
+  /* margin: auto; */
   padding-top: 6rem;
   padding-bottom: 4rem;
 }
 .form-container {
-  /* border: 1px solid red; */
-  height: 100%;
+  /* height: 100%; */
   width: 45%;
   margin: 0 auto;
 }
 .form-child {
-  height: 80%;
+  border: 1px solid red;
+  /* height: 80%; */
+  width: 100%;
+  /* margin-bottom: 6rem; */
 }
 form p {
   width: 100%;
@@ -318,7 +324,7 @@ form button {
   .form-container h2 {
     /* margin: 0 auto; */
     /* border: 1px solid blue; */
-    width: 60%;
+    width: 100%;
   }
   form button {
     margin-bottom: 6rem;
