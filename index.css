@@ -128,7 +128,7 @@ ol li {
 .projects {
   background-color: #f8f9fa;
   color: #6c757d;
-  padding-top: 12rem;
+  padding-top: 6rem;
   width: 100%;
   text-align: center;
 }
@@ -189,7 +189,7 @@ div button {
   display: flex;
   /* background-color: #6c757d; */
   background-color: #212529;
-  margin-top: 12rem;
+  margin-top: 6rem;
 }
 .aboutMe {
   /* width: 50%; */
@@ -320,10 +320,21 @@ form button {
   .hero {
     height: 50vh;
   }
+  .project-container {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 848px) {
   .first {
     display: none;
+  }
+  .project-container2,
+  .project-container {
+    /* display: block; */
+    /* border: 1px solid green; */
+    max-width: 80%;
+    margin: 0 auto;
   }
   .techPic {
     width: 100vw;
@@ -344,6 +355,23 @@ form button {
   }
   .hero img {
     display: none;
+  }
+}
+@media (min-width: 810px) {
+  .aboutMePic img {
+    /* flex-direction: column; */
+    width: 80%;
+    /* border: 1px solid red; */
+  }
+  .aboutMePic {
+    display: flex;
+    justify-content: center;
+  }
+  .aboutMeDiv {
+    width: 80%;
+  }
+  .aboutMe {
+    padding: 3em 2em;
   }
 }
 @media (max-width: 810px) {
