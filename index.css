@@ -78,6 +78,9 @@ body {
   color: black;
   font-family: "Poppins", sans-serif;
 }
+.second {
+  display: none;
+}
 ol,
 ul {
   list-style: none;
@@ -126,6 +129,8 @@ ol li {
   background-color: #f8f9fa;
   color: #6c757d;
   padding-top: 12rem;
+  width: 100%;
+  text-align: center;
 }
 .projects h2 {
   font-size: 2rem;
@@ -232,7 +237,7 @@ div button {
 }
 .tech h2 {
   /* border: 1px solid red; */
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
   width: 100%;
   margin: 6rem auto;
@@ -241,11 +246,11 @@ div button {
 }
 .techPic {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  /* border: 1px solid red; */
+  margin: 0 auto;
 }
-.techPic img {
-  margin: 5rem auto;
-}
+
 .classContainer div button,
 .card div button {
   background-color: #343a40;
@@ -258,7 +263,7 @@ div button {
 .form-child h2 {
   font-size: 3rem;
   font-weight: bold;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: inline-block;
   /* margin: auto; */
   width: 100%;
@@ -275,7 +280,7 @@ div button {
   margin: 0 auto;
 }
 .form-child {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* height: 80%; */
   width: 100%;
   /* margin-bottom: 6rem; */
@@ -303,6 +308,36 @@ form button {
   background-color: #212529;
   color: #e9ecef;
 }
+@media (max-width: 500px) {
+  .logo {
+    margin: 2rem 3rem;
+    border: 1px solid red;
+  }
+  .hero h1 {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .hero {
+    height: 50vh;
+  }
+}
+@media (max-width: 848px) {
+  .first {
+    display: none;
+  }
+  .techPic {
+    width: 100vw;
+    height: 60%;
+    /* border: 1px solid red; */
+  }
+  .second {
+    display: block;
+    width: 100%;
+    /* margin-top: 2rem; */
+    /* height: 60%; */
+    /* margin-bottom: 49rem; */
+  }
+}
 @media (max-width: 620px) {
   ol li {
     display: none;
@@ -311,7 +346,7 @@ form button {
     display: none;
   }
 }
-@media (max-width: 745px) {
+@media (max-width: 810px) {
   .project-container,
   .project-container2 {
     display: flex;
@@ -368,6 +403,9 @@ form button {
   .aboutMeDiv {
     width: 80%;
     padding: 6rem 0;
+  }
+  .aboutMePic {
+    width: 100%;
   }
 }
 @media (max-width: 663px) {
