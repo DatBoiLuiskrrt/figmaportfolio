@@ -18,9 +18,15 @@
       <nav>
         <p class="logo">LH</p>
         <ol class="nav-links">
-          <li>About</li>
-          <li>Projects</li>
-          <li>Hire Me</li>
+          <a href="#about">
+            <li>About</li>
+          </a>
+          <a href="#projects">
+            <li>Projects</li>
+          </a>
+          <a href="#contact">
+            <li>Hire Me</li>
+          </a>
         </ol>
       </nav>
     </header>
@@ -30,7 +36,7 @@
       <img src="/images/Hero.svg" alt="Hero image" />
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
       <h2>Projects</h2>
 
       <div class="project-container">
@@ -117,7 +123,7 @@
       </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="aboutMe">
         <div class="aboutMeDiv">
           <h2>About Me</h2>
@@ -144,7 +150,7 @@
       </div>
     </section>
 
-    <section class="form-section">
+    <section class="form-section" id="contact">
       <div class="form-container">
         <div class="form-child">
           <h2>Contact Me</h2>
@@ -168,11 +174,7 @@
               placeholder="Type here..."
               required
             />
-            <input
-              type="hidden"
-              name="_next"
-              value="http://luishernandezdev.com//thanks.html"
-            />
+            <input type="hidden" name="_next" value="./thanks.html" />
             <button class="sub" type="submit">Send</button>
           </form>
         </div>
