@@ -288,3 +288,46 @@ form button {
   background-color: #212529;
   color: #e9ecef;
 }
+@media (max-width: 620px) {
+  ol li {
+    display: none;
+  }
+  .hero img {
+    display: none;
+  }
+}
+@media (max-width: 745px) {
+  .project-container,
+  .project-container2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-container img {
+    order: -1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .card {
+    width: 100%;
+  }
+  .card2 {
+    width: 100%;
+    padding-left: 0;
+  }
+  .project-container2 {
+    width: 100%;
+  }
+  .classContainer {
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 0;
+  }
+  .project-container2 img {
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+  .last {
+    margin-top: 4rem;
+  }
+}
