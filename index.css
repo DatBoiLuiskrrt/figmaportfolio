@@ -99,6 +99,15 @@ nav ol {
   /* border: 1px solid black; */
   width: 50%;
   justify-content: space-around;
+  color: #e9ecef;
+}
+.nav-links {
+  border: 1px solid red;
+  color: #e9ecef;
+  z-index: 100;
+}
+a li {
+  color: white !important;
 }
 nav {
   padding: 2rem 0;
@@ -342,11 +351,36 @@ form button {
   background-color: #212529;
   color: #e9ecef;
 }
+.fixedNav {
+  bottom: 0;
+  position: fixed;
+  width: 100vw;
+  /* height: 4rem; */
+  /* border-radius: 10px; */
+}
+.fixedNav nav ol {
+  border: 1px solid red;
+  display: flex;
+  width: 100%;
+  /* justify-content: space-around; */
+  padding: 1em 2em;
+}
 @media (max-width: 500px) {
   .logo {
     margin: 2rem 3rem;
     /* border: 1px solid red; */
   }
+  .nav-links {
+    display: none;
+  }
+  nav {
+    padding: 0;
+    margin: 0;
+  }
+  .logo2 {
+    display: none;
+  }
+
   .hero h1 {
     margin: 0 auto;
     width: 80%;
@@ -357,6 +391,11 @@ form button {
   .project-container {
     width: 80%;
     margin: 0 auto;
+  }
+}
+@media (max-width: 700px) {
+  .hero img {
+    display: none;
   }
 }
 @media (max-width: 848px) {
@@ -382,14 +421,6 @@ form button {
 a {
   text-decoration: none;
   color: #f8f9fa;
-}
-@media (max-width: 620px) {
-  li {
-    display: none;
-  }
-  .hero img {
-    display: none;
-  }
 }
 @media (min-width: 810px) {
   .aboutMePic img {
