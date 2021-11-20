@@ -140,7 +140,7 @@ ol li {
   font-weight: 600;
 }
 .projects img {
-  margin-bottom: 6rem;
+  /* margin-bottom: 6rem; */
   width: 50%;
 }
 .projects h3,
@@ -155,6 +155,9 @@ ol li {
   /* padding: 0 5rem; */
   /* border: 1px solid red; */
   /* width: 100vw; */
+}
+.project-container2 {
+  margin: 4em 0;
 }
 .card {
   margin: auto;
@@ -177,6 +180,8 @@ ol li {
 .card p,
 .card2 p {
   margin-bottom: 1rem;
+  text-align: start;
+  line-height: 1.5;
 }
 div button {
   border-radius: 10px;
@@ -202,7 +207,8 @@ div button {
   line-height: 1.4;
 }
 .project-container2 img {
-  width: 50%;
+  /* width: 50%; */
+  /* margin: 0 auto; */
 }
 .card2 {
   width: 50%;
@@ -224,23 +230,32 @@ div button {
   background-color: #343a40;
 }
 .tech {
-  height: 60vh;
+  /* height: 60vh; */
   background-color: #f8f9fa;
-  margin-bottom: 6rem;
+  /* margin-bottom: 6rem; */
   /* width: 100%; */
   /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
   /* justify-content: center; */
   /* align-items: center; */
+  padding: 6rem 4rem;
+}
+.img2 {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  border-radius: 20px;
 }
 .tech h2 {
   /* border: 1px solid red; */
   font-size: 2rem;
   font-weight: 600;
   width: 100%;
-  margin: 6rem auto;
+  margin-bottom: 2rem;
+  /* margin: 6rem auto; */
   /* padding-top: 15rem; */
   /* margin: 0 auto; */
 }
@@ -287,7 +302,8 @@ div button {
 }
 form p {
   width: 100%;
-  padding: 1em 0;
+  padding-bottom: 0.3rem;
+  padding-top: 1.5rem;
   font-size: 1.2rem;
   color: #343a40;
   /* height: 2rem; */
@@ -299,12 +315,11 @@ form {
 form input {
   width: 100%;
   padding: 1em 2em;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 form button {
-  margin-top: 2em;
-}
-form button {
+  margin-top: 1em;
+  margin-bottom: 4em;
   background-color: #212529;
   color: #e9ecef;
 }
@@ -336,14 +351,10 @@ form button {
     max-width: 80%;
     margin: 0 auto;
   }
-  .techPic {
-    width: 100vw;
-    height: 60%;
-    /* border: 1px solid red; */
-  }
   .second {
     display: block;
-    width: 100%;
+    max-width: 100%;
+    /* border: 1px solid red; */
     /* margin-top: 2rem; */
     /* height: 60%; */
     /* margin-bottom: 49rem; */
