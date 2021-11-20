@@ -221,15 +221,23 @@ div button {
 .tech {
   height: 60vh;
   background-color: #f8f9fa;
-  margin-bottom: 12rem;
+  margin-bottom: 6rem;
+  /* width: 100%; */
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 .tech h2 {
+  /* border: 1px solid red; */
   font-size: 3rem;
   font-weight: 600;
-  width: 19%;
-  /* border: 1px solid red; */
-  padding-top: 15rem;
-  margin: 0 auto;
+  width: 100%;
+  margin: 6rem auto;
+  /* padding-top: 15rem; */
+  /* margin: 0 auto; */
 }
 .techPic {
   display: flex;
@@ -250,13 +258,15 @@ div button {
 .form-child h2 {
   font-size: 3rem;
   font-weight: bold;
-  width: 45%;
+  width: 100%;
+  /* border: 1px solid red; */
   /* margin: auto; */
   margin: auto;
   padding-top: 6rem;
   padding-bottom: 4rem;
 }
 .form-container {
+  /* border: 1px solid red; */
   height: 100%;
   width: 45%;
   margin: 0 auto;
@@ -273,7 +283,6 @@ form p {
 }
 form {
   width: 80%;
-  /* border: 1px solid red; */
   margin: 0 auto;
 }
 form input {
@@ -302,6 +311,18 @@ form button {
     display: flex;
     flex-direction: column;
   }
+  .form-container {
+    width: 100%;
+    /* display: flex; */
+  }
+  .form-container h2 {
+    /* margin: 0 auto; */
+    /* border: 1px solid blue; */
+    width: 60%;
+  }
+  form button {
+    margin-bottom: 6rem;
+  }
   .project-container img {
     order: -1;
     width: 100%;
@@ -329,5 +350,22 @@ form button {
   }
   .last {
     margin-top: 4rem;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutMe {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .aboutMeDiv {
+    width: 80%;
+    padding: 6rem 0;
+  }
+}
+@media (max-width: 663px) {
+  .aboutMePic {
+    display: none;
   }
 }
