@@ -97,25 +97,35 @@ nav p {
 nav ol {
   display: flex;
   /* border: 1px solid black; */
-  width: 50%;
-  justify-content: space-around;
+  width: 70%;
+  justify-content: end;
   color: #e9ecef;
+  /* float: right; */
 }
 .nav-links {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   color: #e9ecef;
-  z-index: 100;
+  margin: auto;
+  /* z-index: 100; */
 }
 a li {
   color: white !important;
 }
 nav {
-  padding: 2rem 0;
+  /* border: 1px solid red; */
+  padding: 1rem 0;
   color: #ffffff;
   background-color: #212529;
+  /* margin: auto; */
 }
 ol li {
   margin: 0 1rem;
+}
+@media (max-width: 334px) {
+  .nav-links2 {
+    width: 100vw;
+    /* padding: 0px; */
+  }
 }
 .hero {
   color: white;
@@ -215,10 +225,6 @@ div button {
   /* border: 1px solid blue; */
   width: 50%;
   line-height: 1.4;
-}
-.project-container2 img {
-  /* width: 50%; */
-  /* margin: 0 auto; */
 }
 .card2 {
   width: 50%;
@@ -359,10 +365,10 @@ form button {
   /* border-radius: 10px; */
 }
 .fixedNav nav ol {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   width: 100%;
-  /* justify-content: space-around; */
+  justify-content: space-around;
   padding: 1em 2em;
 }
 @media (max-width: 500px) {
@@ -382,11 +388,11 @@ form button {
   }
 
   .hero h1 {
-    margin: 0 auto;
+    margin: 4rem 2rem;
     width: 80%;
   }
   .hero {
-    height: 50vh;
+    height: 100vh;
   }
   .project-container {
     width: 80%;
@@ -398,8 +404,16 @@ form button {
     display: none;
   }
 }
+@media (min-width: 820px) {
+  .fixedNav {
+    display: none;
+  }
+}
 @media (max-width: 848px) {
   .first {
+    display: none;
+  }
+  .logo2 {
     display: none;
   }
   .project-container2,
