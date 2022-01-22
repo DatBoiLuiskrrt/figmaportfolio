@@ -266,7 +266,7 @@ div button {
   background-color: #343a40;
 }
 .aboutMePic img {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   animation: slide-up 2.5s;
 }
 @keyframes slide-up {
@@ -276,8 +276,6 @@ div button {
   to {
     opacity: 1;
   }
-}
-.card {
 }
 
 .tech {
