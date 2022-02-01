@@ -300,11 +300,13 @@ div button {
 .links-container {
   /* border: 1px solid red; */
   width: 100%;
+  display: flex;
 }
 div a {
   /* border: 1px solid red; */
   padding: 1em 2em;
-  margin-bottom: 0.7em;
+  margin-right: 0.5em;
+  /* margin-bottom: 0.7em; */
   color: white;
   width: 100%;
   background-color: #636a70;
@@ -313,6 +315,18 @@ div a {
   font-size: 1.2rem;
   letter-spacing: 4px;
   text-decoration: none;
+}
+.firstButton {
+  background-color: #ffffff;
+  color: #212529;
+  box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.18);
+}
+.secondButton {
+  box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.18);
 }
 .tech h2 {
   /* border: 1px solid red; */
@@ -394,11 +408,12 @@ form button {
   bottom: 0;
   position: fixed;
   width: 100vw;
+  /* border: 1px solid red; */
+  /* background-color: #343a40; */
   /* height: 4rem; */
   /* border-radius: 10px; */
 }
 .fixedNav nav ol {
-  /* border: 1px solid red; */
   display: flex;
   width: 100%;
   justify-content: space-around;
@@ -508,6 +523,9 @@ a {
     order: -1;
     width: 100%;
     margin-bottom: 2rem;
+    box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.18);
   }
   .card {
     width: 100%;
@@ -528,6 +546,9 @@ a {
     width: 100%;
     margin-bottom: 2rem;
     margin-top: 4rem;
+    box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.18);
   }
   .last {
     margin-top: 4rem;
